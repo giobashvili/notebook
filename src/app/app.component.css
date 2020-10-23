@@ -1,0 +1,34 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto);
+@import url(https://fonts.googleapis.com/css?family=Handlee);
+.center{
+    display: flex;
+    justify-content: center;
+}
+.paper textarea {
+    position: absolute;
+    top: 130px;
+    left: 31%;
+    width: 376px;
+    height: 507px;
+    padding: 0 10px;
+    border: 0;
+    outline: 0;
+    background: transparent;
+    color: red;
+    font-family: 'Handlee', cursive;
+    font-weight: bold;
+    font-size: 16px;
+    box-sizing: border-box;
+
+    z-index: 1;
+}
+button{
+    position: absolute;
+    left: 42%;
+    top: 95%;
+}
+.alert{
+    position: absolute;
+    left: 42%;
+    top: 30px;
+}
